@@ -21,6 +21,7 @@ wget https://apt.devkitpro.org/install-devkitpro-pacman
 chmod +x ./install-devkitpro-pacman
 ./install-devkitpro-pacman
 dkp-pacman -Syu gba-dev
+git clone https://github.com/Ikbosh/gba_bios.git
 cd gba_bios
 chmod +x build_tools.sh
 ./build_tools.sh
