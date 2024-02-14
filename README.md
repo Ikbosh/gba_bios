@@ -12,7 +12,7 @@ Various Requirements:
 
 Because not all of it has been disassembled yet, an original BIOS is required in order to build. Place the original BIOS ROM in the root directory of "gba_bios" and rename this file to baserom.bin.
 
-You may also need (if not familiar with building code like this various other parts relevant to your operating system. As an example; here's the code needed to run on a fresh debian system to successfully compile the ROM. Please ensure you amend the WGET Command with a URL that contains the original GBA BIOS ROM.
+You may also need various other prerequisites depending on your distribution. (if not familiar with building code like this various other parts relevant to your operating system. As an example; here's the code needed to run on a fresh debian system to successfully compile the ROM. Please ensure you amend the WGET Command with a URL that contains the original GBA BIOS ROM.)
 
 ```
 apt install build-essential gcc-arm-none-eabi git libpng-dev
